@@ -41,6 +41,7 @@ App Design:
 There are four layers: cli, service, persistence and domain.
 
 cli -> service -> domain
+
 service -> persistence
 
 cli - handles console I/O, parsing, rendering
