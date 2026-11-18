@@ -1,1 +1,6 @@
+target/
+out/
+saves/
+sources.txt
+.vscode/
 .DS_Store
