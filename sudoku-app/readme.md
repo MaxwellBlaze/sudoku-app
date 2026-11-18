@@ -45,8 +45,11 @@ cli -> service -> domain
 service -> persistence
 
 cli - handles console I/O, parsing, rendering
+
 service - handles game rules
+
 persistence - handles save file
+
 domain - handles the board, rules, puzzle generation, validation
 
 Assumptions:
