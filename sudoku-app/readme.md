@@ -41,9 +41,7 @@ App Design:
 There are four layers: cli, service, persistence and domain.
 
 cli -> service -> domain
-        |
-        v
-    persistence
+service -> persistence
 
 cli - handles console I/O, parsing, rendering
 service - handles game rules
